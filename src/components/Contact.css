@@ -1,0 +1,131 @@
+.contact-title {
+	text-align: center;
+	display: block;
+	font-family: 'Playfair Display', serif;
+	font-size: 25px;
+	font-weight: 900;
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+.contact-title hr {
+  display: block;
+  height: 1px;
+  width: 200px;
+  border: 0;
+  border-top: 3px solid #86d0b7;
+  margin: auto;
+  padding: 0;
+}
+
+.contact-columns {
+	display: flex;
+	width: 100%;
+}
+
+.contact-info-col {
+  width: 40%;
+}
+
+.contact-info-col-text {
+	padding-left: 150px;
+}
+
+.contact-info-col-title {
+font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	margin: 0;
+}
+
+.contact-input-col {
+  width: 60%;
+}
+
+.error-field {
+	display: inline-block;
+	background: #cc3b3b url('./close.png') no-repeat 9px 50%;
+	color: #fff;
+	visibility: hidden;
+}
+
+.error-field-text {
+	padding-left: 25px;
+}
+
+.contact-input-col-name-phone-cols {
+	display: flex;
+}
+
+.contact-input-col-name-phone-cols input {
+	width: 60%;
+}
+
+.contact-input-col-name-col {
+	width: 50%;
+}
+
+.contact-input-col-phone-col {
+	width: 50%;
+}
+
+.contact-input-col label {
+	display: block;
+}
+
+.contact-input-col-email input {
+	width: 40%;
+}
+
+.contact-input-col-interests-option{
+	display: flex;
+}
+
+.contact-input-col-text textarea {
+	width: 40vw;
+	min-height: 100px;
+}
+
+.contact-input-col-human-option{
+	display: flex;
+}
+
+.contact-input-col-buttons {
+	display: flex;
+}
+
+.contact-input-col-buttons-submit-button {
+  background-color: #98D7C2;
+  border: none;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Playfair Display', serif;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.contact-input-col-buttons-reset-button {
+  background-color: #fff;
+  border-width: thin;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Playfair Display', serif;
+  margin: 10px;
+}
+
+.contact-input-col-buttons-submit-button:hover {
+  background-color: #86d0b7;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-input-col-buttons-reset-button:hover {  
+	background-color: #f7f7f7;
+  cursor: pointer;
+}

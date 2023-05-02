@@ -1,0 +1,153 @@
+.topnav {
+	position: fixed;
+	display: flex;
+	width: 100%;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: flex-start;
+	height: 125px;
+	padding-top: 2vh;
+	padding-bottom: 3vh;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  background: #fff;
+  top: 0;
+  z-index: 1;
+}
+
+.logo-wrapper {
+	display: flex;
+	margin: 0;
+	width: 100%;
+}
+
+.logo {
+	width: 35px;
+	height: auto;
+}
+
+.site-title {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.site-title-name {
+	font-family: 'Castoro Titling', cursive;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.site-title-desc {
+}
+
+.nav-list {
+	width: 100%;
+	display: inline-block;
+	text-align: right;
+}
+
+.nav-list * {
+	margin: 10px;
+	text-decoration: none;
+}
+
+.topnav-quote-button {
+  background-color: #98D7C2;
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Playfair Display', serif;
+  border-radius: 30px;
+
+}
+
+.topnav-quote-button:hover {
+  background-color: #86d0b7;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger {
+	display: none;
+	cursor: pointer;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+	.cross {
+		display: none;
+		cursor: pointer;
+	}
+
+	.mobile-list {
+		display: none;
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background-color: #fff;
+		top: 0;
+		left: 0;
+		text-align: center;
+	}
+
+	.mobile-list-links {
+		position: fixed;
+		top: 20%;
+		left: 50%;
+		font-size: 30px;
+		transform: translate(-50%, 0);
+	}
+
+		.mobile-list-links a {
+		text-decoration: none;
+		cursor: pointer;
+	}
+
+		.mobile-list-links p {
+		padding-top: 30%;
+	}
+	
+	.mobile-list-quote-button {
+		position: fixed;
+		bottom: 10%;
+		left: 50%;
+		background-color: #98D7C2;
+	  border: none;
+	  padding: 25px 40px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 25px;
+	  font-family: 'Playfair Display', serif;
+	  border-radius: 50px;
+	  transform: translate(-50%, 0);
+	}
+
+	.mobile-list-quote-button:hover {
+  background-color: #86d0b7;
+  border: none;
+  cursor: pointer;
+	}
+
+
+@media screen and (max-width: 1230px) {
+	.topnav-quote-button {
+
+	}
+	.hamburger {
+		display: revert;
+		width: 100%;
+		display: inline-block;
+		text-align: right;
+	}
+
+	.nav-list {
+		display: none;
+	}
+
+
+}

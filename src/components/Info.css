@@ -1,0 +1,39 @@
+.info-wrapper {
+  text-align: center;
+  padding-top: 4vh;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-bottom: 2vh;
+}
+
+.info-columns {
+  display: flex;
+}
+
+.info-columns-col {
+  width: 33.33%;
+  padding: 0px;
+  text-align: center;
+
+}
+
+.info-icon {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  border-radius: 50%;
+  background: #d3f3b2;
+  overflow: hidden;
+}
+.info-title {
+font-family: 'Playfair Display', serif;
+font-size: 20px;
+}
+
+.info-text {
+  width: 55%;
+  margin: 0 auto;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-bottom: 3vh;
+}

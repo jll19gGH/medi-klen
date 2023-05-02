@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+font-family: 'Playfair Display', serif;
+font-size: 16px;  
+-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a:visited, a:hover, a:focus, a:active {
+  text-decoration: none; color:black; 
+}
+
+#services {
+  scroll-margin-top: 100px;
+}
+
+#contact {
+  scroll-margin-top: 100px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}

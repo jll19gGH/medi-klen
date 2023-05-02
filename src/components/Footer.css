@@ -1,0 +1,20 @@
+.footer-content-wrapper {
+	background: #98D7C2;
+	margin-top: 50px;
+	height: 200px;
+}
+
+.footer-content {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.footer-content-socials {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+.footer-content-copyright, .footer-content-credit {
+
+}
