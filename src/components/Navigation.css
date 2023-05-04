@@ -279,7 +279,11 @@
 
 @media screen and (max-width: 350px) {
 	.site-title-name {
-	font-size: 16px;
+	font-size: 15px;
+}
+
+.site-title-desc {
+	font-size: 10px;
 }
 
 .logo {
