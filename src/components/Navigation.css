@@ -279,7 +279,7 @@
 
 @media screen and (max-width: 350px) {
 	.site-title-name {
-	font-size: 15px;
+	font-size: 13px;
 }
 
 .site-title-desc {
@@ -287,26 +287,27 @@
 }
 
 .logo {
-	width: 28px;
+	width: 25px;
 	height: auto;
 }
 
 .hamburger-icon {
-	width: 30px;
+	width: 28px;
 	height: auto;
 }
 
 .cross-icon {
-	width: 25px;
+	width: 23px;
 	height: auto;	
 }
 
 .mobile-list-links {
-	font-size: 25px;
+	font-size: 22px;
 	}
 
 	.mobile-list-quote-button {
-		font-size: 16px;
+		font-size: 14px;
+	  padding: 25px 35px;
 	}
 
 }
