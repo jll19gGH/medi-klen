@@ -37,3 +37,17 @@ font-size: 20px;
   padding-right: 3vw;
   padding-bottom: 3vh;
 }
+
+@media screen and (max-width: 939px) {
+
+.info-columns {
+  display: block;
+}
+
+
+  .info-columns-col {
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+}
+}

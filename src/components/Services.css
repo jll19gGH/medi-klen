@@ -23,13 +23,16 @@
 
 .services-list {
 	display: grid;
-	grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
-	width: 80vw;
+	grid-template-columns: repeat( auto-fit, minmax(400px, 1fr) );
+	width: 90vw;
 	height: auto;
-	margin-inline: auto;
+	margin: auto;
 	gap: 50px;
 	padding-top: 30px;
 	padding-bottom: 100px;
+	padding-left: 30px;
+	padding-right: 30px;
+	align-items: center;
 }
 
 .services-list * {
@@ -40,6 +43,7 @@
   border-radius: 16px;
   background: #fff;
   overflow: hidden;
+  padding-bottom: 20px;
 }
 
 .services-list-service-text {
@@ -83,4 +87,46 @@ transition: all .2s ease-in-out;
 
 .grow:hover { 
 transform: scale(1.1); 
+}
+
+@media screen and (max-width: 944px) {
+	.grow:hover { 
+transform: scale(1.06); 
+}
+
+.services-list {
+width: 80vw;}
+}
+
+@media screen and (max-width: 620px) {
+
+.services-list {
+gap: 25px;
+grid-template-columns: auto;
+grid-template-rows: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.services-list-service-text h2 {
+	font-size: 22px;
+}
+
+.services-list-service-text p {
+	font-size: 16px;
+}
+
+.services-list-service-text button {
+	font-size: 14px;
+}
+
+}
+
+@media screen and (max-width: 350px) {
+
+.services-title h2 {
+	font-size: 23px;
+}
+
+
 }

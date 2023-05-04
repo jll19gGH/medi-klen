@@ -98,7 +98,7 @@ class Contact extends React.Component {
 			this.humanError.current.style.visibility = "unset";
 			submit = false;
 		}
-
+/*
 		if(submit) {
     		emailjs.send("service_xs9ld29","template_14oyckl",{
 				name: this.state.name,
@@ -114,7 +114,7 @@ class Contact extends React.Component {
 		    });
 		    
 			this.onReset();
-		}
+		}*/
 		
 	}
 
@@ -174,7 +174,8 @@ class Contact extends React.Component {
 		</div>
 
 			<p>Feel free to contact us with any questions.</p>
-		<div className="contact-info-col-email-phone-cols">
+		<div className="contact-info-col-email-phone-hours-cols">
+			<div className="contact-info-col-email-phone-col">
 			<div className="contact-info-col-email-col">
 			<h3>Email</h3>
 			<p>email@gmail.com</p>
@@ -182,6 +183,7 @@ class Contact extends React.Component {
 			<div className="contact-info-col-phone-col">
 			<h3>Phone</h3>
 			<p>(123) 456-7890</p>
+			</div>
 			</div>
 			<div className="contact-info-col-hours-col">
 			<h3>Hours</h3>

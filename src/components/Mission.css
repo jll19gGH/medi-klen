@@ -8,7 +8,7 @@
 
 .mission-title {
 font-family: 'Playfair Display', serif;
-font-size: 25px;
+font-size: 28px;
 font-weight: 900;
 	margin: 0;
 }
@@ -27,4 +27,16 @@ font-weight: 900;
 	padding-left: 3vw;
 	padding-right: 3vw;
 	padding-bottom: 3vh;
+}
+
+@media screen and (max-width: 350px) {
+
+	.mission-wrapper hr {
+  width: 100px;
+}
+
+.mission-title {
+font-size: 23px;
+}
+
 }

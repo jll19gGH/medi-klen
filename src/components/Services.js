@@ -12,14 +12,14 @@ function Services() {
 			</div>
 			<div className="services-list">
 			<div className="services-list-service grow">
-			<img className="services-list-service-image" src={serviceImg1} alt=""/>
+			<img className="services-list-service-image" src={serviceImg2} alt=""/>
 		  	<div className="services-list-service-text">
 		  	<div className="services-list-service-title">
 		    <h2>Service 1</h2>
 		    </div>
 		    <div className="services-list-service-desc">
 		    <p>
-		    	We only use EPA approved, environmentally friendly cleaning products. We never use harmful or toxic chemicals.
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 		    </p>
 		    </div>
 		    <a href="#contact">
@@ -28,8 +28,11 @@ function Services() {
 			</button>
 			</a>
 		    </div>
+
+
 			</div>
 			<div className="services-list-service grow">
+		
 			<img className="services-list-service-image" src={serviceImg2} alt=""/>
 		  	<div className="services-list-service-text">
 		  	<div className="services-list-service-title">
@@ -37,7 +40,7 @@ function Services() {
 		    </div>
 		    <div className="services-list-service-desc">
 		    <p>
-		    	We only use EPA approved, environmentally friendly cleaning products. We never use harmful or toxic chemicals.
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 		    </p>
 		    </div>
 		    <a href="#contact">
@@ -46,16 +49,19 @@ function Services() {
 			</button>
 			</a>
 		    </div>
+		    
+
 			</div>
 			<div className="services-list-service grow">
-			<img className="services-list-service-image" src={serviceImg3} alt=""/>
+		
+			<img className="services-list-service-image" src={serviceImg2} alt=""/>
 		  	<div className="services-list-service-text">
 		  	<div className="services-list-service-title">
 		    <h2>Service 3</h2>
 		    </div>
 		    <div className="services-list-service-desc">
 		    <p>
-		    	We only use EPA approved, environmentally friendly cleaning products. We never use harmful or toxic chemicals.
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 		    </p>
 		    </div>
 		    <a href="#contact">
@@ -63,7 +69,9 @@ function Services() {
 			Learn More
 			</button>
 			</a>
-		    </div>		    
+		    </div>
+		    
+
 			</div>
 			</div>
 		</div>

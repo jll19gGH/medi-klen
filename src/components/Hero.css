@@ -71,7 +71,7 @@
 }
 
 .mobile-hero {
-	display: ;
+	display: none;
 	background: #98D7C2;
 	width: 100%;
 	margin-top: 125px;
@@ -95,5 +95,33 @@
 	display: none;
 }
 
+.mobile-hero {
+	display: revert;
+}
 
+.hero-cols-text-col {
+	width: 100%;
+}
+
+}
+
+@media screen and (max-width: 590px) {
+	.hero-cols-text-col-text-title {
+	font-size: 30px;
+}
+
+.hero-cols-text-col-text-subtitle {
+	font-size: 20px;
+}
+}
+
+@media screen and (max-width: 350px) {
+
+	.hero-cols-text-col-text-title {
+	font-size: 25px;
+}
+
+.hero-cols-text-col-text-subtitle {
+	font-size: 20px;
+}
 }

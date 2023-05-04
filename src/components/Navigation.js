@@ -4,7 +4,36 @@ import logo from './logo.png';
 import hamburger from './menu-burger.svg';
 import cross from './cross.svg';
 
-function Navigation() {
+class Navigation extends React.Component {
+
+
+	constructor(props) {
+	    super(props);
+	    this.state = {
+	      mobileNav: '',
+	      hamburger: '',
+	      cross: '',
+	     }	  
+
+	     this.mobileNav=React.createRef();
+	     this.hamburger=React.createRef();
+	     this.cross=React.createRef();
+	  }
+
+	openMobileNav = () => {
+		this.mobileNav.current.style.display = "revert";
+		this.hamburger.current.style.display="none";
+		this.cross.current.style.display="inline-block";
+
+	}
+
+	closeMobileNav = () => {
+		this.mobileNav.current.style.display = "none";
+		this.hamburger.current.style.display="inline-block";
+		this.cross.current.style.display="none";
+	}
+
+	render () {
 	return(
 		<div className="nav-wrapper">
 			<nav className="topnav">
@@ -31,26 +60,27 @@ function Navigation() {
 						</button>
 						</a>
 					</div>
-					<div className="hamburger">
-						<img className="hamburger-icon" src={hamburger} alt='hamburger'/>
+					<div className="hamburger" ref={this.hamburger}>
+						<img className="hamburger-icon" src={hamburger} alt='hamburger'   onClick={this.openMobileNav}/>
 					</div>
-					<div className="cross">
-						<img className="cross-icon" src={cross} alt='cross'/>
+					<div className="cross" ref={this.cross}>
+						<img onClick={this.closeMobileNav} className="cross-icon" src={cross} alt='cross'/>
 					</div>
 			</nav>
-					<div className="mobile-list">
+					<div className="mobile-list"  ref={this.mobileNav}>
 					<div className="mobile-list-links">
-						<p><a href="#services">Our Services</a></p>
-						<p><a href="#contact">Contact</a></p>
+						<p><a href="#services" onClick={this.closeMobileNav}>Our Services</a></p>
+						<p><a href="#contact" onClick={this.closeMobileNav}>Contact</a></p>
 					</div>
 						<a href="#contact">
-						<button type="button" className="mobile-list-quote-button">
+						<button type="button" className="mobile-list-quote-button" onClick={this.closeMobileNav}>
 							Get a Quote
 						</button>
 						</a>
 					</div>
 					</div>
 	);
+}
 }
 
 export default Navigation;

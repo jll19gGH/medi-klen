@@ -129,3 +129,128 @@ font-family: 'Playfair Display', serif;
 	background-color: #f7f7f7;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1070px) {
+	.contact-columns {
+		display: block;
+		width: 100%;
+	}
+
+	.contact-info-col {
+  width: 100%;
+  padding: 0;
+}
+
+.contact-info-col-text {
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.contact-info-col-email-phone-hours-cols {
+	  display: flex;
+	  width: 100%;
+	}
+
+.contact-info-col-email-phone-col {
+	width: 40vw;
+}
+
+.contact-info-col-hours-col {
+	width: 40vw;
+}
+
+.contact-input-col {
+	width: 80vw;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.contact-input-col-text textarea {
+	width: 80vw;
+	min-height: 100px;
+}
+
+}
+
+@media screen and (max-width: 840px) {
+	.contact-input-col-name-phone-cols {
+		display: block;
+	}
+
+	.contact-input-col-name-phone-cols input {
+	width: 60vw;
+}
+
+.contact-input-col-email input {
+    width: 60vw;
+}
+
+}
+
+@media screen and (max-width: 350px) {
+	.contact-info-col-email-phone-hours-cols h3 {
+			font-size: 16px;
+	}
+
+	.contact-info-col-email-phone-hours-cols p {
+			font-size: 13px;
+	}
+
+	.contact-title h2 {
+		font-size: 23px;
+	}
+
+	.contact-info-col-title h2 {
+			font-size: 20px;
+	}
+
+	.contact-info-col-text {
+		padding-right: 0;
+	}
+
+	.contact-info-col-text p {
+		font-size: 12px;
+	}
+
+.contact-input-col {
+	padding-right: 0;
+}
+
+	.contact-title hr {
+  width: 100px;
+}
+
+.contact-input-col-buttons button {
+	font-size: 12px;
+}
+
+
+}
+
+@media screen and (max-width: 250px) {
+
+		.contact-info-col-text p {
+		font-size: 10px;
+	}
+
+	.contact-input-col {
+		font-size: 13px;
+	}
+
+	.contact-input-col-buttons button {
+	font-size: 10px;
+	display: block;
+}
+
+	.contact-input-col-buttons  {
+	display: block;
+}
+
+.contact-input-col-buttons-reset-button {
+	margin-left: -2px;
+}
+
+
+}

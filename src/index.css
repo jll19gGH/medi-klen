@@ -1,7 +1,8 @@
 body {
   margin: 0;
 font-family: 'Playfair Display', serif;
-font-size: 16px;  
+font-size: 18px;
+color: black;  
 -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,11 +12,11 @@ a:visited, a:hover, a:focus, a:active {
 }
 
 #services {
-  scroll-margin-top: 100px;
+  scroll-margin-top: 120px;
 }
 
 #contact {
-  scroll-margin-top: 100px;
+  scroll-margin-top: 120px;
 }
 
 code {
@@ -25,4 +26,18 @@ code {
 
 html {
   scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 590px) {
+  body {
+    font-size: 16px;
+  }
+
+  body h2 {
+    font-size: 28px;
+  }
+
+  body h3 {
+    font-size: 20px;
+  }
 }

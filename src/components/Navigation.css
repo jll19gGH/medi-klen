@@ -73,13 +73,17 @@
 
 .hamburger {
 	display: none;
+}
+
+.hamburger-icon {
 	cursor: pointer;
-	-webkit-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
 }
 
 	.cross {
 		display: none;
+	}
+
+	.cross-icon {
 		cursor: pointer;
 	}
 
@@ -134,10 +138,8 @@
 	}
 
 
-@media screen and (max-width: 1230px) {
-	.topnav-quote-button {
+@media screen and (max-width: 1295px) {
 
-	}
 	.hamburger {
 		display: revert;
 		width: 100%;
@@ -145,9 +147,63 @@
 		text-align: right;
 	}
 
+	.cross {
+		width: 100%;
+		text-align: right;
+	}
+
 	.nav-list {
 		display: none;
 	}
 
+}
+
+@media screen and (min-width: 1295px) {
+
+	.mobile-list {
+		visibility: hidden;
+	}
+
+	.cross-icon {
+		display: none;
+	}
+
+	.hamburger-icon {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 590px) {
+	.site-title-name {
+	font-size: 22px;
+}
+
+.site-title-desc {
+	font-size: 15px;
+}
+
+.logo {
+	width: 30px;
+	height: auto;
+}
+
+.hamburger-icon {
+	width: 40px;
+	height: auto;
+}
+
+.cross-icon {
+	width: 30px;
+	height: auto;	
+}
+
+.mobile-list-links {
+	font-size: 25px;
+	}
+
+	.mobile-list-quote-button {
+		font-size: 20px;
+	}
 
 }
