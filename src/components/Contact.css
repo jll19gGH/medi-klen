@@ -105,11 +105,13 @@ font-family: 'Playfair Display', serif;
   font-family: 'Playfair Display', serif;
   border-radius: 30px;
   margin-top: 10px;
+  color: #000000;
 }
 
 .contact-input-col-buttons-reset-button {
   background-color: #fff;
   border-width: thin;
+  border-color: #000000;
   padding: 10px 30px;
   text-align: center;
   text-decoration: none;

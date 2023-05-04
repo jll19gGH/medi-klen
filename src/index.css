@@ -15,6 +15,11 @@ a:visited, a:hover, a:focus, a:active {
   text-decoration: none; color:black; 
 }
 
+button {
+  text-decoration: none;
+  color: #000000;
+}
+
 #services {
   scroll-margin-top: 120px;
 }
