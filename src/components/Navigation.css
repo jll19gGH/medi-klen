@@ -174,22 +174,90 @@
 
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 895px) {
 	.site-title-name {
-	font-size: 22px;
+	font-size: 25px;
 }
 
 .site-title-desc {
 	font-size: 15px;
 }
 
-.logo {
+.hamburger-icon {
+	width: 45px;
+	height: auto;
+}
+
+.cross-icon {
+	width: 35px;
+	height: auto;	
+}
+
+.mobile-list-links {
+	font-size: 28px;
+	}
+
+	.mobile-list-quote-button {
+		font-size: 23px;
+	}
+
+}
+
+@media screen and (max-width: 750px) {
+	.site-title-name {
+	font-size: 23px;
+}
+
+.site-title-desc {
+	font-size: 13px;
+}
+
+
+.hamburger-icon {
+	width: 40px;
+	height: auto;
+}
+
+.cross-icon {
 	width: 30px;
+	height: auto;	
+}
+}
+
+@media screen and (max-width: 650px) {
+	.site-title-name {
+	font-size: 20px;
+}
+
+.site-title-desc {
+	font-size: 12px;
+}
+
+
+.hamburger-icon {
+	width: 40px;
+	height: auto;
+}
+
+.cross-icon {
+	width: 30px;
+	height: auto;	
+}
+}
+
+
+@media screen and (max-width: 430px) {
+	.site-title-name {
+	font-size: 18px;
+}
+
+.logo {
+	width: 28px;
 	height: auto;
 }
 
 .hamburger-icon {
-	width: 40px;
+	width: 35px;
 	height: auto;
 }
 
@@ -203,7 +271,38 @@
 	}
 
 	.mobile-list-quote-button {
-		font-size: 20px;
+		font-size: 18px;
+	}
+
+}
+
+
+@media screen and (max-width: 350px) {
+	.site-title-name {
+	font-size: 16px;
+}
+
+.logo {
+	width: 28px;
+	height: auto;
+}
+
+.hamburger-icon {
+	width: 30px;
+	height: auto;
+}
+
+.cross-icon {
+	width: 25px;
+	height: auto;	
+}
+
+.mobile-list-links {
+	font-size: 25px;
+	}
+
+	.mobile-list-quote-button {
+		font-size: 16px;
 	}
 
 }
